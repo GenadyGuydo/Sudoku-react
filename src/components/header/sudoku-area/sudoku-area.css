@@ -1,0 +1,75 @@
+.cellInput{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+  
+}
+
+.cellInput:disabled{
+ background-color: bisque
+ ;
+}
+
+table{
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 3px solid rgb(255, 74, 54);
+}
+
+td {
+  border: 1px solid rgb(142, 104, 100);
+  padding: 0px;
+}
+.buttonContainer{
+  margin-top: 25px;
+}
+.solveButton{
+  background-color: bisque;
+  font-weight: bold;
+  padding: 17px 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  transform: translate(0.7s ease);
+  margin: 0 25px;
+
+}
+.solveButton:hover{
+  background-color: rgb(254, 201, 88);
+}
+
+.checkButton{
+  background-color: rgb(175, 255, 188);
+  font-weight: bold;
+  padding: 17px 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  transform: translate(0.7s ease);
+
+}
+
+.checkButton:hover{
+  background-color: rgb(68, 255, 77);
+}
+
+.resetButton{
+  background-color: rgb(230, 186, 255);
+  font-weight: bold;
+  padding: 17px 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  transform: translate(0.7s ease);
+
+}
+.resetButton:hover{
+  background-color: rgb(232, 59, 255);
+}
+.dBorder{
+  border-bottom: 2px solid rgb(255, 74, 54);
+}
+
+.rBorder{
+  border-right: 2px solid rgb(255, 74, 54);
+}

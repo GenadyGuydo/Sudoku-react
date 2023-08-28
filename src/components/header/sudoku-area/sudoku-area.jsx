@@ -4,16 +4,9 @@ import './sudoku-area.css'
 const areaArr = [0,1,2,3,4,5,6,7,8]
 
 
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min) + min) ;
-}
-
-
-const ranNum =  randomNumber(1,9)
-
 
 const initial = [
-  [-1,ranNum ,-1,7,-1,-1,-1,-1,-1],
+  [-1,8 ,-1,7,-1,-1,-1,-1,-1],
   [8,-1,-1,-1,4,-1,3,-1,7],
   [-1,-1,-1,2,8,-1,1,9,-1],
   [5,3,8,6,-1,7,9,4,-1],
